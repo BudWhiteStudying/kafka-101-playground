@@ -1,0 +1,4 @@
+.DS_Store
+*.log
+kill_and_cleanup.sh
+README.html
