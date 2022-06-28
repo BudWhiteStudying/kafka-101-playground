@@ -2,6 +2,8 @@
 
 The purpose of this simple project is to provide a quick way to start an arbitrary number of Kafka servers, relying on a single ZooKeeper server, and creating a Kafka topic on the cluster.
 
+This has only been tested on MacOS. It *might* work on a random UNIX system. It ***won't*** work on any Windows system (unless you have a `bash` shell on it).
+
 ## Usage
 
 - `-r` flag: replication factor i.e. the number of Kafka servers that will be spun up
